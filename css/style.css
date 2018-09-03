@@ -1,0 +1,95 @@
+.card-food{
+    width: 18rem;
+    margin-top: 20px;
+}
+footer{
+    padding: 60px;
+    padding-bottom: 10px;
+    width: 100%;
+    
+    bottom: 0;    
+}
+.detalhes{
+    position: absolute;
+}
+
+.social{
+    color: #9ea2a7;
+}
+
+.social:hover{
+    color: #f7f7f7;
+    text-decoration: inherit;
+}
+
+hr{
+    margin-top: 60px;
+    transform: rotate(90deg);
+    /*width: 180px;*/
+    border-color: #7d7c7c;
+}
+
+.container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.btn-contol{
+    border: 0;
+    color: black;
+    background-color: #ffebcd00;
+}
+.item{
+    margin-top: 4px;
+}
+
+.form-control:disabled{
+    border: 0;
+    background-color: #e9ecef00;
+    padding-right: 0px;
+    padding-left: 6px;
+}
+
+.cont{    
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+
+#snackbar {
+    visibility: hidden;
+     min-width: 250px;
+    margin-left: -125px;
+    position: fixed;
+    right: 2%;
+    top: 70px;
+}
+
+#snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {top: 70px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {top: 0; opacity: 0;}
+    to {top: 70px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {top: 70px; opacity: 1;} 
+    to {top: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {top: 70px; opacity: 1;}
+    to {top: 0; opacity: 0;}
+}
+
+#button-detalhes{
+    margin-top: 20px;
+}

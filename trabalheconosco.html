@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/logo.png">
+    <title>Trabalhe Conosco</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/modal.css" rel="stylesheet">
+    <!--JAVASCRIPT PATH BEGIN -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/carrinho.js"></script>
+    <script defer src="js/fontawesome-all.js"></script>
+    <script src="js/modal.js"></script>
+    <!--JAVASCRIPT PATH END -->
+</head>
+<body>
+    <div id="menu-lanche"></div>
+  
+    <div class="container">
+
+        <H3>Trabalhe Conosco</H3>
+        <div class="row">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col">Cod.:</th>
+                    <th scope="col">Vaga</th>
+                    <th scope="col">Quantidade</th>
+                    <th scope="col">Data Publicaçao</th>
+                    <th scope="col" colspan="2">Status</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Desenvolvedor Jr</td>
+                        <td>2</td>
+                        <td>15/04/2018</td>
+                        <td class="text-success">Aberto</td>
+                        <td><input class="form-check-input" type="checkbox"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Garçonete</td>
+                        <td>1</td>
+                        <td>15/04/2018</td>
+                        <td class="text-danger">Fechado</td>
+                        <td><input class="form-check-input" type="checkbox" disabled></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="row">
+            <div class="col-12">
+
+                <form>
+                    <div class="form-group">
+                        <label>Nome:</label>
+                        <input type="text" class="form-control"  name="txtNome" placeholder="Joao Silva" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Email:</label>
+                        <input type="email" class="form-control" name="txtEmail" placeholder="email@hfgdh.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Telefone:</label>
+                        <input type="tel" class="form-control" name="txtFone" placeholder="(92) 3651-8952" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Curriculum:</label>
+                        <input type="file" class="form-control" name="arq" accept=".pdf" placeholder="curriculum.pdf" required>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+        </div>
+
+
+        <!--LOGIN MODAL -->
+        <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header" align="center">
+                        <img class="img-circle" id="img_logo" src="img/logo-login-modal.png">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+
+                    <!-- INICIO - FORMULARIO MODAL LOGIN -->
+                    <div id="div-forms">
+
+                        <!-- INICIO - FORMULARIO DE LOGIN -->
+                        <form id="login-form">
+                            <div class="modal-body">
+                                <div align="center" id="div-login-msg">
+                                    <i class="fas fa-user-circle"></i>
+                                    <span id="text-login-msg">Login</span>
+                                </div>
+                                <input id="login_username" class="form-control" type="text" placeholder="Usuário" required>
+                                <input id="login_password" class="form-control" type="password" placeholder="Senha" required>
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox"> Lembrar-me
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <div>
+                                    <button type="submit" class="btn btn-warning my-2 my-sm-0 btn-lg btn-block">Login</button>
+                                </div>
+                                <div>
+                                    <button id="login_lost_btn" type="button" class="btn btn-link">Esqueceu a Senha?</button>
+                                    <button id="login_register_btn" type="button" class="btn btn-link">Registrar</button>
+                                </div>
+                            </div>
+                        </form>
+                        <!-- FIM - FORMULARIO DE LOGIN -->
+
+                        <!-- INICIO - FORMULARIO RECUPERAR SENHA -->
+                        <form id="lost-form" style="display:none;">
+                            <div class="modal-body">
+                                <div id="div-lost-msg">
+                                    <div id="icon-lost-msg" class="glyphicon glyphicon-chevron-right"></div>
+                                    <span id="text-lost-msg">Digite seu e-mail.</span>
+                                </div>
+                                <input id="lost_email" class="form-control" type="text" placeholder="E-Mail" required>
+                            </div>
+                            <div class="modal-footer">
+                                <div>
+                                    <button type="submit" class="btn btn-warning my-2 my-sm-0 btn-lg btn-block">Enviar</button>
+                                </div>
+                                <div>
+                                    <button id="lost_login_btn" type="button" class="btn btn-link">Login</button>
+                                    <button id="lost_register_btn" type="button" class="btn btn-link">Registrar</button>
+                                </div>
+                            </div>
+                        </form>
+                        <!-- FIM - FORMULARIO RECUPERAR SENHA -->
+
+                        <!-- INICIO - FORMULARIO REGISTRAR -->
+                        <form id="register-form" style="display:none;">
+                            <div class="modal-body">
+                                <div id="div-register-msg">
+                                    <div id="icon-register-msg" class="glyphicon glyphicon-chevron-right"></div>
+                                    <span id="text-register-msg">Registre uma Conta</span>
+                                </div>
+                                <input id="register_username" class="form-control" type="text" placeholder="Nome de Usuário" required>
+                                <input id="register_email" class="form-control" type="text" placeholder="E-Mail" required>
+                                <input id="register_password" class="form-control" type="password" placeholder="Senha" required>
+                            </div>
+                            <div class="modal-footer">
+                                <div>
+                                    <button type="submit" class="btn btn-warning my-2 my-sm-0 btn-lg btn-block">Registrar</button>
+                                </div>
+                                <div>
+                                    <button id="register_login_btn" type="button" class="btn btn-link">Login</button>
+                                    <button id="register_lost_btn" type="button" class="btn btn-link">Esqueceu a Senha?</button>
+                                </div>
+                            </div>
+                        </form>
+                        <!-- FIM - FORMULARIO REGISTRAR -->
+
+                    </div>
+                    <!-- FIM FORMULARIO MODAL LOGIN -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+    <footer class="bg-dark" id="contato"></footer>
+    
+    <div id="snackbar"></div>
+</body>
+</html>

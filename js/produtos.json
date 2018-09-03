@@ -1,0 +1,165 @@
+{
+    "sanduiche" : [
+        {
+            "cod": "S1",
+            "img": "img/s/1.png",
+            "titulo": "x-salada tudo",
+            "descricao": "x-salada tudo",
+            "valor": 12.00
+        },
+        {
+            "cod": "S2",
+            "img": "img/s/2.png",
+            "titulo": "x-hamburge",
+            "descricao": "x-hamburge",
+            "valor": 11.00
+        },
+        {
+            "cod": "S3",
+            "img": "img/s/3.png",
+            "titulo": "x-fit",
+            "descricao": "x-fit",
+            "valor": 11.00
+        },
+        {
+            "cod": "S4",
+            "img": "img/s/4.png",
+            "titulo": "x-tudo",
+            "descricao": "x-tudo",
+            "valor": 11.00
+        },
+        {
+            "cod": "S5",
+            "img": "img/s/5.png",
+            "titulo": "x-frango",
+            "descricao": "x-frango",
+            "valor": 11.00
+        },
+        {
+            "cod": "S6",
+            "img": "img/s/6.png",
+            "titulo": "x-havaiano",
+            "descricao": "x-havaiano",
+            "valor": 11.00
+        },
+        {
+            "cod": "S7",
+            "img": "img/s/7.png",
+            "titulo": "x-medio",
+            "descricao": "x-medio",
+            "valor": 11.00
+        },
+        {
+            "cod": "S8",
+            "img": "img/s/8.png",
+            "titulo": "Mini x-salada",
+            "descricao": "Mini x-salada",
+            "valor": 11.00
+        },
+        {
+            "cod": "S9",
+            "img": "img/s/9.png",
+            "titulo": "x-medio",
+            "descricao": "x-medio",
+            "valor": 11.00
+        },
+        {
+            "cod": "S10",
+            "img": "img/s/10.png",
+            "titulo": "x-medio",
+            "descricao": "x-medio",
+            "valor": 11.00
+        },
+        {
+            "cod": "S11",
+            "img": "img/s/11.png",
+            "titulo": "x-medio",
+            "descricao": "x-medio",
+            "valor": 11.00
+        },
+        {
+            "cod": "S12",
+            "img": "img/s/11.png",
+            "titulo": "x-medio",
+            "descricao": "x-medio",
+            "valor": 11.00
+        }
+    ],
+
+    "batata" :[
+        {
+            "cod": "b8",
+            "img": "img/b/batata-frita-bacon.png",
+            "titulo": "Batata frita com bacon",
+            "descricao": "Batata frita com bacon",
+            "valor": 11.00
+        },
+        {
+            "cod": "b9",
+            "img": "img/b/batata-frita-calabresa.png",
+            "titulo": "Batata frita com calabresa",
+            "descricao": "Batata frita com calabresa",
+            "valor": 11.00
+        },
+        {
+            "cod": "b10",
+            "img": "img/b/batata-frita-parmesao.png",
+            "titulo": "Batata frita com parmesao",
+            "descricao": "Batata frita com parmesao",
+            "valor": 11.00
+        },
+        {
+            "cod": "b11",
+            "img": "img/b/batata-frita.png",
+            "titulo": "Batata frita",
+            "descricao": "Batata frita",
+            "valor": 11.00
+        }
+    ],
+
+    "bebidas" : [
+        {
+            "cod": "b12",
+            "img": "img/r/refrigerante-coca-zero.png",
+            "titulo": "Refrigerante coca-cola zero",
+            "descricao": "Refrigerante coca-cola zero",
+            "valor": 11.00
+        },
+        {
+            "cod": "b13",
+            "img": "img/r/refrigerante-coca.png",
+            "titulo": "Refrigerante coca-cola",
+            "descricao": "Refrigerante coca-cola",
+            "valor": 11.00
+        },
+        {
+            "cod": "b14",
+            "img": "img/r/refrigerante-fanta-laranja-zero.png",
+            "titulo": "Refrigerante fanta laranja zero",
+            "descricao": "Refrigerante fanta laranja zero",
+            "valor": 11.00
+        },
+        {
+            "cod": "b15",
+            "img": "img/r/refrigerante-fanta-laranja.png",
+            "titulo": "Refrigerante fanta laranja",
+            "descricao": "Refrigerante fanta laranja",
+            "valor": 11.00
+        },
+        {
+            "cod": "b16",
+            "img": "img/r/refrigerante-kuat-zero.png",
+            "titulo": "Refrigerante kaut zero",
+            "descricao": "Refrigerante kaut zero",
+            "valor": 2.00
+        },
+        {
+            "cod": "b17",
+            "img": "img/r/refrigerante-sprite-zero.png",
+            "titulo": "Refrigerante Sprite zero",
+            "descricao": "Refrigerante Sprite zero",
+            "valor": 11.00
+        }
+    ]
+
+}

@@ -1,0 +1,10 @@
+Senha GitLab - Repositorio
+
+    Email: dspace@uea.edu.br
+    login: ri_uea
+    senha: dspace@2017
+
+Senha Servirdo - Dspace
+
+    ssh: dspace@177.66.14.82
+    senha: dspace@uea@2017
