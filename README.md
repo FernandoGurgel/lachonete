@@ -13,6 +13,6 @@
     - static        = Possui os arquivos responsáveis pela visualização do sistema que não é alterado.
 
 # Snapshots do Projeto
-![Index](https://github.com/FernandoGurgel/lachonete/tree/master/img/index.gif)
-![work](https://github.com/FernandoGurgel/lachonete/tree/master/img/trabalhe.png)
-![carrinho](https://github.com/FernandoGurgel/lachonete/tree/master/img/carrinho.png)
+![Index](https://github.com/FernandoGurgel/lachonete/blob/master/img/index.gif)
+![work](https://github.com/FernandoGurgel/lachonete/blob/master/img/trabalhe.png)
+![carrinho](https://github.com/FernandoGurgel/lachonete/blob/master/img/carrinho.png)
